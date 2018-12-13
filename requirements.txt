@@ -1,0 +1,6 @@
+from bs4 import BeautifulSoup
+import urllib.request
+from lxml import etree, html
+from html5print import HTMLBeautifier
+from html.parser import HTMLParser
+import tech 
