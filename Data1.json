@@ -1,0 +1,351 @@
+[{
+    "qustion": "\r\n            i'm trying to refresh the div tag using js  below is the code \n\n`$(document).ready(function() {\n  $('#product_slidebar').on('click',function(){\n    console.log(\"2\");\n    $('#data').load('{{URL::to(\"/...\r\n        ",
+    "tags": ["javascript", "php", "jquery", "ajax", "laravel"],
+    "qId": "53783922",
+    "relativeTime": "2018-12-14 16:53:55Z",
+    "href": "/questions/53783922/while-div-tag-refresh-using-javascript-is-refreshing-the-whole-page",
+    "header": "while div tag refresh using javascript is refreshing the whole page"
+}, {
+    "qustion": "\r\n            With my website, which is on my pc is not using localhost and I'm wondering if there are any password protection techniques that doesn't require php/htaccess or a localhost network. Just pure HTML ...\r\n        ",
+    "tags": ["javascript", "html", "css"],
+    "qId": "53783912",
+    "relativeTime": "2018-12-14 16:53:18Z",
+    "href": "/questions/53783912/is-there-a-type-of-password-protection-that-works-on-local-files",
+    "header": "Is there a type of password protection that works on local files?"
+}, {
+    "qustion": "\r\n            What is a good/optimal way of asserting for values contained within an array, imported into a Test Suite, given the following code (which does not work obviously :)\n\n\r\n\r\nit('Grant all email phone ...\r\n        ",
+    "tags": ["javascript", "mocha", "chai"],
+    "qId": "53783907",
+    "relativeTime": "2018-12-14 16:53:07Z",
+    "href": "/questions/53783907/asserting-values-contained-within-javascript-arrays-using-mocha-and-chai",
+    "header": "Asserting values contained within Javascript Arrays using Mocha and Chai"
+}, {
+    "qustion": "\r\n            When I tried to do coding in anglar js the \r\n  htm file is not getting loaded while using templateUrl\r\nmy Html code, \n\n index.htm\n\n    <!DOCTYPE html>\n    <html>\n    <head>\n        &...\r\n        ",
+    "tags": ["javascript", "angularjs"],
+    "qId": "53783891",
+    "relativeTime": "2018-12-14 16:52:20Z",
+    "href": "/questions/53783891/htm-file-not-loaded-in-angular-js-routing",
+    "header": "htm file not loaded in Angular JS routing"
+}, {
+    "qustion": "\r\n            The following function should display an alert message with the value it gets from the json file.\n\nfunction ajaxTest() {\n    let currencyRate = \"\";\n\n    $.ajax({\n        url: \"http://free....\r\n        ",
+    "tags": ["javascript", "jquery", "ajax", "api", "google-chrome-extension"],
+    "qId": "53783879",
+    "relativeTime": "2018-12-14 16:51:43Z",
+    "href": "/questions/53783879/get-data-from-json-file-and-display-the-value-using-jquery-ajax",
+    "header": "Get data from json file and display the value using jquery/ajax"
+}, {
+    "qustion": "\r\n            I'm having a hard time trying to use Execute Javascript  driver.findElement(By.xpath in Robot Framework\n\nI have no issues updating the value of an element using this JS method below\ndocument....\r\n        ",
+    "tags": ["javascript", "robotframework"],
+    "qId": "53783821",
+    "relativeTime": "2018-12-14 16:48:14Z",
+    "href": "/questions/53783821/how-to-use-execute-javascript-driver-findelementby-xpath-in-robot-framework",
+    "header": "How to use Execute Javascript driver.findElement(By.xpath in Robot Framework"
+}, {
+    "qustion": "\r\n            I am using a react table for displaying, for example all ACCOUNTS.\nI have customized this table using fields like headers, accessor, cell, min-width, max-width, props, etc.\n\nNow I want to make a react ...\r\n        ",
+    "tags": ["javascript", "reactjs", "react-native", "react-table"],
+    "qId": "53783804",
+    "relativeTime": "2018-12-14 16:47:21Z",
+    "href": "/questions/53783804/have-to-rewrite-the-code-for-react-table-every-time-i-want-to-use-it-for-differe",
+    "header": "Have to rewrite the code for react table every-time I want to use it for different data"
+}, {
+    "qustion": "\r\n            The syntax in JavaScript for accessing the property of an object is: \n\nobject.property or object[\"property\"] or object[property]\n\nI was trying out this lesson on freeCodeCamp: \n\nvar myObj = { gift: \"...\r\n        ",
+    "tags": ["javascript", "object", "syntax", "properties", "undefined"],
+    "qId": "53783797",
+    "relativeTime": "2018-12-14 16:47:00Z",
+    "href": "/questions/53783797/javascript-object-props",
+    "header": "Javascript object props"
+}, {
+    "qustion": "\r\n            i have tow code :\n1st : Allows me to draw the picture as soon as it is uploaded.\n2nd : drawing the picture in black and white using canvas.\n\nand i want to draw the image when it is uploaded in black ...\r\n        ",
+    "tags": ["javascript", "html5-canvas"],
+    "qId": "53783791",
+    "relativeTime": "2018-12-14 16:46:32Z",
+    "href": "/questions/53783791/draw-image-in-canvas-in-black-and-white-on-upload-the-image",
+    "header": "draw image (in canvas) in black and white on-upload the image"
+}, {
+    "qustion": "\r\n            I have an Autocomplete component inside of a PopOver component. However, when I use the autocomplete its area is not completely shown. It gets overlaid by the PopOver component. I want to be above it ...\r\n        ",
+    "tags": ["javascript", "reactjs", "material-ui"],
+    "qId": "53783685",
+    "relativeTime": "2018-12-14 16:38:25Z",
+    "href": "/questions/53783685/how-can-i-insert-an-autocomplete-component-inside-popover-component-in-material",
+    "header": "How can I insert an autocomplete Component inside Popover Component in Material UI?"
+}, {
+    "qustion": "\r\n            I am attempting to test one of my components. It is a NavigationDrawer from Material-UI, and it has a prop called toggleDrawer() which does exactly that and toggles the drawer.\n\nEvery time the ...\r\n        ",
+    "tags": ["javascript", "reactjs", "enzyme"],
+    "qId": "53783676",
+    "relativeTime": "2018-12-14 16:38:00Z",
+    "href": "/questions/53783676/component-calling-function-10-times-every-time-it-renders",
+    "header": "Component calling function 10 times every time it renders"
+}, {
+    "qustion": "\r\n            Im uploading pictures and i need them to display without reloading the page\n\n   .subscribe(res => {\n          if(this.newFamMember.imageFile) {\n            res.Id;\n            let data = {\n         ...\r\n        ",
+    "tags": ["javascript", "angular", "typescript", "input", "angular5"],
+    "qId": "53783668",
+    "relativeTime": "2018-12-14 16:37:35Z",
+    "href": "/questions/53783668/input-from-image-doesnt-load-until-i-refresh-the-page-angular-5",
+    "header": "Input from image doesnt load until i refresh the page (angular 5)"
+}, {
+    "qustion": "\r\n            I need to import this library github: chrono in my Typescript project but the problem is that it doesn't work no matter what I try.\n\nI have tried:\n\nimport chrono from 'chrono';\nimport * as chrono from ...\r\n        ",
+    "tags": ["javascript", "typescript", "requirejs"],
+    "qId": "53783618",
+    "relativeTime": "2018-12-14 16:33:49Z",
+    "href": "/questions/53783618/how-to-import-the-chrono-library-which-is-required-in-typescript",
+    "header": "How to import the chrono library which is required in Typescript?"
+}, {
+    "qustion": "\r\n            ive written out a live streaming feature in my app to check and see if there is a video source every 30 seconds. The problem I'm having is when the video source does come in from my API the interval ...\r\n        ",
+    "tags": ["javascript", "angular", "typescript"],
+    "qId": "53783607",
+    "relativeTime": "2018-12-14 16:33:05Z",
+    "href": "/questions/53783607/verifying-link-on-interval-to-stop-video-refresh",
+    "header": "verifying link on interval to stop video refresh?"
+}, {
+    "qustion": "\r\n            I have made some kind of \"karaoke\", synchronize words while audio is playing. \nCode is pretty short and simple:\n\n\r\n\r\nvar timing = [\r\n        [0, 1, 50, 890],\r\n        [1, 2, 970, 1050],\r\n        [2, 3,...\r\n        ",
+    "tags": ["javascript", "media-player", "html5-audio"],
+    "qId": "53783594",
+    "relativeTime": "2018-12-14 16:32:18Z",
+    "href": "/questions/53783594/word-by-word-player-subtitles-in-html-and-javascript-small-intervals-doesnt",
+    "header": "Word by word player (subtitles) in html and javascript - small intervals doesn't appear"
+}, {
+    "qustion": "\r\n            I have this code in my react application:\n\nthis.handlefileupload = (e) => {\r\nconsole.log(e.target.files[0])\n var formdata = new FormData()\r\n      formdata.append('file', e.target.files[0])\r\n      ...\r\n        ",
+    "tags": ["javascript", "ruby-on-rails", "ruby", "reactjs"],
+    "qId": "53783582",
+    "relativeTime": "2018-12-14 16:31:29Z",
+    "href": "/questions/53783582/unable-to-send-file-to-ruby-on-rails-backend-with-formdata",
+    "header": "Unable to send file to ruby on rails backend with formdata"
+}, {
+    "qustion": "\r\n            I hope you can help me with this problem. I have tried EVERYTHING the last 5 days, but I fail every time.\nI have buildt a simple app using HTML5, CSS and little bit of Javascript.The app works fine....\r\n        ",
+    "tags": ["javascript", "admob", "hybrid-mobile-app", "phonegap", "banner-ads"],
+    "qId": "53783568",
+    "relativeTime": "2018-12-14 16:30:18Z",
+    "href": "/questions/53783568/admob-plugin-dosent-work-with-phonegap-app",
+    "header": "Admob plugin dosen't work with Phonegap app"
+}, {
+    "qustion": "\r\n            I'm writing a form validator with a custom pattern.  Here's the regex \n^d+s[A-z]+s?[A-z]*$\n\nWhat I'd like to do is match 123 Main Street OR 123 Main street #23\n\nThe essential elements for a successful ...\r\n        ",
+    "tags": ["javascript", "regex"],
+    "qId": "53783526",
+    "relativeTime": "2018-12-14 16:28:17Z",
+    "href": "/questions/53783526/matching-part-of-a-regex-for-addresses",
+    "header": "Matching part of a regex for addresses"
+}, {
+    "qustion": "\r\n            I want to add characters or URL before a link in each anchor link, for example i want to add https://shorten.com/api/:\n\n<a class=\"destination\" href=\"https://shorten.com/api/https://destinationlink....\r\n        ",
+    "tags": ["javascript", "html"],
+    "qId": "53783477",
+    "relativeTime": "2018-12-14 16:25:01Z",
+    "href": "/questions/53783477/adding-characters-before-a-link-in-anchor-link",
+    "header": "Adding characters before a link in anchor link"
+}, {
+    "qustion": "\r\n            I am using ACF repeater to create user profiles that have a \"read more/read less\" function that shows and hides text. The issue I'm facing is when I press the \"read more\" button for the 3rd profile ...\r\n        ",
+    "tags": ["javascript", "html", "advanced-custom-fields"],
+    "qId": "53783474",
+    "relativeTime": "2018-12-14 16:24:45Z",
+    "href": "/questions/53783474/creating-dynamic-javascript-onclick",
+    "header": "Creating Dynamic Javascript OnClick()"
+}, {
+    "qustion": "\r\n            I am trying to stimulate pressing enter in my html table as being the same as focusout, which currently saves new data and leads to other events upon focusout happening. I do not want to use an input ...\r\n        ",
+    "tags": ["javascript", "html"],
+    "qId": "53783471",
+    "relativeTime": "2018-12-14 16:24:31Z",
+    "href": "/questions/53783471/bind-focusout-with-pressing-enter-in-javascript-in-an-editable-div-not-an-input",
+    "header": "Bind focusout with pressing enter in Javascript in an editable div (not an input)"
+}, {
+    "qustion": "\r\n            Am a Newbie to VUEJS, am having trouble populating a vuetify select element with a names ofcountries from a local JSON file containing an array of a json objects.\nInstead of populating the options it ...\r\n        ",
+    "tags": ["javascript", "vue.js", "vuejs2", "vue-component", "vuetify.js"],
+    "qId": "53783455",
+    "relativeTime": "2018-12-14 16:23:36Z",
+    "href": "/questions/53783455/populate-vuetify-select-from-an-array-of-json",
+    "header": "populate vuetify select from an array of json"
+}, {
+    "qustion": "\r\n            I have a basic application.\n\nWhen the button is triggered, I set my loading value to true.\n\nvm.loading = true;\r\nwhich then turns on my spinner in the background.\n\nWe are currently using asp .net ...\r\n        ",
+    "tags": ["javascript", "angular", "aspnetboilerplate"],
+    "qId": "53783451",
+    "relativeTime": "2018-12-14 16:23:21Z",
+    "href": "/questions/53783451/how-to-turn-off-a-task-after-a-message-prompt-confirmation",
+    "header": "How to turn off a task after a message prompt confirmation"
+}, {
+    "qustion": "\r\n            I'm trying to dynamicly create buttons based on JSON result. The number of buttons generated is equal to the json information. However for the name of the button I get ReferenceError: locationName is ...\r\n        ",
+    "tags": ["javascript", "json"],
+    "qId": "53783424",
+    "relativeTime": "2018-12-14 16:21:34Z",
+    "href": "/questions/53783424/generate-buttons-based-on-json-result",
+    "header": "Generate buttons based on JSON result"
+}, {
+    "qustion": "\r\n            can somebody please make me understand what happening with this line of code. \n\nvar scale = d3.scale.linear().domain([300,400]).range([1,100])\nconsole.log(scale(375));\r\nhow this input value 375 is ...\r\n        ",
+    "tags": ["javascript", "d3.js"],
+    "qId": "53783423",
+    "relativeTime": "2018-12-14 16:21:34Z",
+    "href": "/questions/53783423/d3-javascript-syntax-understanding",
+    "header": "d3 javascript syntax understanding"
+}, {
+    "qustion": "\r\n            I have a question about the integration of SQLite (but in general of the DB) with Node.js with and Express framework.\n\nFrom what I know, it is always good to open and close a connection to the db. But ...\r\n        ",
+    "tags": ["javascript", "node.js", "sqlite"],
+    "qId": "53783409",
+    "relativeTime": "2018-12-14 16:20:34Z",
+    "href": "/questions/53783409/working-with-express-and-sqlite-connection-and-disconnection-node-js",
+    "header": "Working with Express and SQLite (connection and disconnection) Node.js"
+}, {
+    "qustion": "\r\n            I have this JSON Response from API call\n\n[\n    {\n        \"id\": 20599,\n        \"name\": \"Deliver\",\n        \"options\": [\n            {\n                \"id\": 63775,\n                \"name\": \"Item\",\n        ...\r\n        ",
+    "tags": ["javascript", "postman"],
+    "qId": "53783395",
+    "relativeTime": "2018-12-14 16:19:35Z",
+    "href": "/questions/53783395/postman-json-parse-response-body-arrays-inside-arrays",
+    "header": "Postman JSON parse response body arrays inside arrays"
+}, {
+    "qustion": "\r\n            How can I select only the spans that do NOT have div.option as a parent?\n\n<div class=\"option\">\n    <span>Content goes here</span>\n</div>\n<span>Content goes here</span&...\r\n        ",
+    "tags": ["javascript", "jquery", "html", "jquery-selectors"],
+    "qId": "53783390",
+    "relativeTime": "2018-12-14 16:19:10Z",
+    "href": "/questions/53783390/how-to-select-element-isnt-child-of-specific-element-using-jquery",
+    "header": "How to select element isn't child of specific element using jquery?"
+}, {
+    "qustion": "\r\n            I am retrieving records from an API and I would like to hide records that has inventory_name = 'Better luck next time!'. I am trying to do it with ngIf With my current codes, all records are hidden. ...\r\n        ",
+    "tags": ["javascript", "typescript", "api", "ionic-framework"],
+    "qId": "53783389",
+    "relativeTime": "2018-12-14 16:19:09Z",
+    "href": "/questions/53783389/exclude-records-in-api-ionic",
+    "header": "Exclude records in API - Ionic"
+}, {
+    "qustion": "\r\n            I am working on React project and I ran into an issue.\nBasically my app uses a dashboard view on most paths except on those paths:\n- / (root directory) which displays the HomePage component\n- /signin ...\r\n        ",
+    "tags": ["javascript", "regex", "reactjs"],
+    "qId": "53783362",
+    "relativeTime": "2018-12-14 16:17:08Z",
+    "href": "/questions/53783362/how-can-i-use-regex-with-react-router",
+    "header": "How can I use RegEx with React Router?"
+}, {
+    "qustion": "\r\n            I'm trying to make a video (or anything else) go into fullscreen mode in the Edge browser through JavaScript. But I cant't get it to work. In Chrome everything works as expected.\n\nI tried all steps in ...\r\n        ",
+    "tags": ["javascript", "html5", "microsoft-edge", "html5-fullscreen"],
+    "qId": "53783331",
+    "relativeTime": "2018-12-14 16:14:49Z",
+    "href": "/questions/53783331/javascript-requestfullscreen-not-working-in-edge",
+    "header": "JavaScript requestFullscreen not working in Edge"
+}, {
+    "qustion": "\r\n            I'm using webpack to build my Vue app, which is served by nginx in an ubuntu container. In my production webpack config file I do the following:\n\nfunction resolve (dir) {\n  return path.join(__dirname, ...\r\n        ",
+    "tags": ["javascript", "webpack"],
+    "qId": "53783314",
+    "relativeTime": "2018-12-14 16:13:50Z",
+    "href": "/questions/53783314/cant-access-process-env-property",
+    "header": "Can't access process.env property"
+}, {
+    "qustion": "\r\n            I've got code in the following structure. The intent is to send an Ajax request, and to retry it some number of times with a delay between each try:\n\n$.ajax({\n  type: 'GET',\n  url: 'https://example....\r\n        ",
+    "tags": ["javascript", "jquery", "ajax", "delay", "atlassian-plugin-sdk"],
+    "qId": "53783290",
+    "relativeTime": "2018-12-14 16:12:24Z",
+    "href": "/questions/53783290/javascript-add-delay-to-a-jquery-ajax-retry",
+    "header": "JavaScript: Add delay to a jquery ajax retry"
+}, {
+    "qustion": "\r\n            I have this calculator program that exceeds 59 in seconds. For example, if I calculate speed to 4 minutes and 40 seconds and choose marathon distance as 42,195 kilometers or 42195 meters, the program ...\r\n        ",
+    "tags": ["javascript", "html5"],
+    "qId": "53783284",
+    "relativeTime": "2018-12-14 16:11:59Z",
+    "href": "/questions/53783284/calculator-program-in-html-and-javascript-that-exceeds-59-in-seconds",
+    "header": "Calculator program in html and javascript that exceeds 59 in seconds"
+}, {
+    "qustion": "\r\n            I have 2 barcode scanner that read barcode and fill the HTML text field with it. If the barcode comes from the first scanner, my program does something, and if it comes from the seond one, the program ...\r\n        ",
+    "tags": ["javascript", "html", "barcode-scanner"],
+    "qId": "53783198",
+    "relativeTime": "2018-12-14 16:05:56Z",
+    "href": "/questions/53783198/determine-which-barcode-scanner-sends-the-data-to-html-form",
+    "header": "determine which barcode scanner sends the data to html form [on hold]"
+}, {
+    "qustion": "\r\n            I am researching a 'easy' way to implement a button in the toolbar which can toggle between the rich text and HTML view/edit. Exactly like the Froala Editor does it, there's a button in the toolbar ...\r\n        ",
+    "tags": ["javascript", "reactjs", "rich-text-editor", "draftjs"],
+    "qId": "53783171",
+    "relativeTime": "2018-12-14 16:04:36Z",
+    "href": "/questions/53783171/draft-js-edit-content-is-it-possible-to-toggle-between-html-and-rich-text-whil",
+    "header": "Draft JS - edit content is it possible to toggle between HTML and rich text while using the editor?"
+}, {
+    "qustion": "\r\n            I have one array TopicDetails and in this array I have two fields called activationDate & deActivationDate. I want to take activationDate & deActivationDate from TopicDetails and calculate the ...\r\n        ",
+    "tags": ["javascript", "arrays", "loops"],
+    "qId": "53783130",
+    "relativeTime": "2018-12-14 16:02:21Z",
+    "href": "/questions/53783130/date-difference-and-push-into-same-array-using-js",
+    "header": "date difference and push into same array using JS"
+}, {
+    "qustion": "\r\n            I am developing a backend application with node.js and sql server 2012 Express database. It is hosted in windows server 2012.\n\nI have each package, and each package have their own expiry date. The ...\r\n        ",
+    "tags": ["javascript", "node.js", "sql-server"],
+    "qId": "53783121",
+    "relativeTime": "2018-12-14 16:01:52Z",
+    "href": "/questions/53783121/5-minutes-before-countdown-detection",
+    "header": "5 minutes before countdown detection"
+}, {
+    "qustion": "\r\n            I have a array named sbjCodeArr\n\nlet sbjCodeArr = new Array();\r\nAnd every time I click the button, data will push into sbjCodeArr\n\nEx)   \r\nFirst time I click the button ['a']  \nSecond time I click the ...\r\n        ",
+    "tags": ["javascript"],
+    "qId": "53783111",
+    "relativeTime": "2018-12-14 16:01:07Z",
+    "href": "/questions/53783111/javascript-array-push-check-overlap-alert",
+    "header": "JavaScript array push check overlap alert"
+}, {
+    "qustion": "\r\n            I have a react-native app with MobX. In there, I use an 3rd party library with a class Device which has the method isConnected(). This returns a Promise<boolean>.\n\nI want to display this on the ...\r\n        ",
+    "tags": ["javascript", "react-native", "observable", "mobx", "mobx-react"],
+    "qId": "53783107",
+    "relativeTime": "2018-12-14 16:00:32Z",
+    "href": "/questions/53783107/how-to-observe-variables-not-under-your-control-with-mobx",
+    "header": "How to observe variables not under your control with MobX?"
+}, {
+    "qustion": "\r\n            i'm trying to upload an image to cloudinary using axios and react. I have two functions. One for appending the formData, and the other for making a request\n\n// APPEND CLOUDINARY DETAILS\nexport ...\r\n        ",
+    "tags": ["javascript", "node.js", "reactjs", "cloudinary"],
+    "qId": "53783104",
+    "relativeTime": "2018-12-14 16:00:18Z",
+    "href": "/questions/53783104/i-keep-getting-a-bad-request-error-when-trying-to-post-image-to-cloudinary",
+    "header": "I keep getting a Bad request error when trying to post Image to Cloudinary"
+}, {
+    "qustion": "\r\n            I need to do a web page consists of 2 buttons, if I clicked on the calculator button, an iframe containing a JavaScript calculator should open on the same page.\nAnd when I click on the validation form ...\r\n        ",
+    "tags": ["javascript", "html", "calculator"],
+    "qId": "53783085",
+    "relativeTime": "2018-12-14 15:59:04Z",
+    "href": "/questions/53783085/connecting-between-html-and-javascript",
+    "header": "Connecting between HTML and JavaScript"
+}, {
+    "qustion": "\r\n            The W3C defines the WebDriver Protocol, which can be used to automate user inputs on web pages within browsers. It can be used with external browser drivers (such as Google Chrome's Chromedriver or ...\r\n        ",
+    "tags": ["javascript", "selenium", "webdriver", "code-injection"],
+    "qId": "53783079",
+    "relativeTime": "2018-12-14 15:58:33Z",
+    "href": "/questions/53783079/what-is-the-benefit-of-the-webdriver-protocol-over-injected-javascript-automatio",
+    "header": "What is the benefit of the WebDriver protocol over injected JavaScript automation?"
+}, {
+    "qustion": "\r\n            My problem is really simple. I'm trying to remove a node from my tree with the following structure. How could I delete the node that meets my condition? Basically I just want to set it to null so its ...\r\n        ",
+    "tags": ["javascript", "binary-search-tree"],
+    "qId": "53783075",
+    "relativeTime": "2018-12-14 15:58:25Z",
+    "href": "/questions/53783075/javascript-bst-recursion-how-to-remove-a-node-class-with-this-reference",
+    "header": "Javascript BST recursion. How to remove a node class with \u201cthis\u201d reference?"
+}, {
+    "qustion": "\r\n            I'm trying to fetch data via post request and the API I'm querying from returns a maximal 50 elements. This worked great so far, but now we have some uses cases where it's mandatory to receive an ...\r\n        ",
+    "tags": ["javascript", "angularjs", "promise"],
+    "qId": "53782949",
+    "relativeTime": "2018-12-14 15:50:28Z",
+    "href": "/questions/53782949/angular-dependent-http-requests",
+    "header": "Angular dependent $http requests"
+}, {
+    "qustion": "\r\n            I am working on something that pulls data from the yahoo.jp api,\nHaving an issue pulling from its API.\n\nsuccess: function(data) {\n    console.log(data);\n    $.each(data, function(i, item) {\n      $('#...\r\n        ",
+    "tags": ["javascript", "json", "api", "jsonp", "yahoo"],
+    "qId": "53782930",
+    "relativeTime": "2018-12-14 15:49:40Z",
+    "href": "/questions/53782930/jsonp-nested-array-is-confusing",
+    "header": "jsonp nested array is confusing [on hold]"
+}, {
+    "qustion": "\r\n            <form action=\"\" method=\"post\" id=\"all-student-reservations-form\" class=\"form-block\">\n    <label style=\"display: inline-block; vertical-align: bottom;\">Type<br>\n                <...\r\n        ",
+    "tags": ["javascript", "php", "jquery"],
+    "qId": "53782883",
+    "relativeTime": "2018-12-14 15:46:48Z",
+    "href": "/questions/53782883/how-to-get-specific-button-id-when-submitting-a-form",
+    "header": "How to get Specific Button ID when submitting a form?"
+}, {
+    "qustion": "\r\n            I was just trying to create a simple Express app and trying to save data using MongoDB. Everything went fine until I tried to add the status code. I've tried adding the status code using 3 different ...\r\n        ",
+    "tags": ["javascript", "node.js", "mongodb", "backend"],
+    "qId": "53782882",
+    "relativeTime": "2018-12-14 15:46:36Z",
+    "href": "/questions/53782882/error-in-node-js-use-res-statusstatus-sendbody",
+    "header": "Error in Node.js - \"Use res.status(status).send(body)"
+}, {
+    "qustion": "\r\n            I want to click the \"continue\" which is given on the end of this page, note that the site is not mine, its someone else's. The element is located after the pagination, \n\nI tried to click it this way :\n...\r\n        ",
+    "tags": ["javascript"],
+    "qId": "53782862",
+    "relativeTime": "2018-12-14 15:44:53Z",
+    "href": "/questions/53782862/how-to-click-a-div-element-on-a-site-using-javasript",
+    "header": "How to click a \u201cDIV\u201d element on a site, using JavaSript"
+}, {
+    "qustion": "\r\n            So, I have a globals.js file where I have mentioned beforeEach and afterEach, but what I could understand from this link Nightwatch Globals, the beforeEach and afterEach are called once before and ...\r\n        ",
+    "tags": ["javascript", "nightwatch.js"],
+    "qId": "53782850",
+    "relativeTime": "2018-12-14 15:43:54Z",
+    "href": "/questions/53782850/beforeeach-and-aftereach-for-every-test-case-using-globals-js",
+    "header": "beforeEach and AfterEach for every test case using Globals.js"
+}]

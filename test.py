@@ -5,6 +5,10 @@ import urllib.request
 from html5print import HTMLBeautifier
 import tech
 import html
+from json import JSONEncoder
+import tech
+import json
+import sys
 
 i = 1
 Page = []
@@ -44,6 +48,17 @@ for i in range(1, 2):
 
         print('-------------------------------------------------------------------')
 
-#printing using override
-for a in techArray:
-    print(a)
+
+
+
+
+
+#sys.stdout = open("Data1.json", "w+")
+#for a in techArray:
+   # print(a)
+   # json.dumps(a)
+   #print(json.dumps(foo.__dict__))
+    sys.stdout = open("Data1.json", "w+")
+    json_string = json.dumps([ob.__dict__ for ob in techArray])
+    print(json_string)
+    sys.stdout.close()
