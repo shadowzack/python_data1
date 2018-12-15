@@ -66,18 +66,18 @@ for lang in langes:
                 tags.append(tagesArraytempIndex.text)
             #print(tags)
             
-            techArray.append(
-                tech.Tech(header, qustion, tags, qId, relativeTime, href))
+            techObject=tech.Tech(header, qustion, tags, qId, relativeTime, href)
+            techArray.append(techObject)
 
-            json_string = json.dumps([ob.__dict__ for ob in techArray])
-            print(json.dumps)
+            json_string = json.dumps(techObject.__dict__)
+            print(json_string)
             ##print('-------------------------------------------------------------------')
 
 
 #run now
 
 #print('----')
-print (techArray)
+#print (techArray)
 
 #sys.stdout = open("Data1.json", "w+")
 #for a in techArray:
