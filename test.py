@@ -18,6 +18,7 @@ maxPage = 10
 locker = 0 
 Page = []
 techArray = []
+sys.stdout = open("Data1.json", "a")
 for lang in langes:
     locker = 0
     for i in range(1, maxPage):
@@ -26,14 +27,17 @@ for lang in langes:
                 "https://stackoverflow.com/questions/tagged/"+lang+"?sort=newest&page="+str(i)+"&pagesize=50")
         except:
             break
+
         soup = BeautifulSoup(htmlPage.read(), "html.parser")
 
         ### getting Max page number
         ### one time each string
-        if locker == 0 :
+        if locker == 0:
             pagesNum = soup.find("div","pager fl").findAll("a")
-            maxPage = int(pagesNum[4].find("span").text)
-            locker=1
+            if(len(pagesNum)>2):
+                maxPage = int(pagesNum[len(pagesNum)-2].find("span").text)
+                locker=1
+
 
         ### questions crawler starts here 
         Page.extend(soup.find_all("div", "summary"))
@@ -41,36 +45,39 @@ for lang in langes:
         z = 0
         for section in Page:
             header = (section.find("a", "question-hyperlink")).text
-            print(header)
+            #print(header)
 
             href = (section.find("a", "question-hyperlink")).get("href")
-            print(href)
+            #print(href)
 
             relativeTime = (section.find("span", "relativetime")).get("title")
-            print(relativeTime)
+            #print(relativeTime)
 
             qustion = (section.find("div", "excerpt")).text
-            print(qustion)
+            #print(qustion)
 
             qId = href.rsplit('/', 2)[1]
-            print(qId)
+            #print(qId)
 
             tags = []
             tagesArraytempIndex = 0
             tagesArraytemp = (section.find_all("a", "post-tag"))
             for tagesArraytempIndex in tagesArraytemp:
                 tags.append(tagesArraytempIndex.text)
-            print(tags)
+            #print(tags)
             
             techArray.append(
                 tech.Tech(header, qustion, tags, qId, relativeTime, href))
 
-            print('-------------------------------------------------------------------')
+            json_string = json.dumps([ob.__dict__ for ob in techArray])
+            print(json.dumps)
+            ##print('-------------------------------------------------------------------')
 
 
+#run now
 
-
-
+#print('----')
+print (techArray)
 
 #sys.stdout = open("Data1.json", "w+")
 #for a in techArray:
@@ -87,9 +94,9 @@ for lang in langes:
 
 
 
-    sys.stdout = open("Data1.json", "a")
-    json_string = json.dumps([ob.__dict__ for ob in techArray])
-    print(json_string)
-    sys.stdout.close()
+#sys.stdout = open("Data1.json", "a")
+#json_string = json.dumps([ob.__dict__ for ob in techArray])
+#print(json_string)
+sys.stdout.close()
 
 
