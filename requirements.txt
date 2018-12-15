@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
+from json import JSONEncoder
 import urllib.request
-from lxml import etree, html
-from html5print import HTMLBeautifier
-from html.parser import HTMLParser
-import tech 
+import re
+import tech
+import html
+import tech
+import json
+import sys
