@@ -48,8 +48,7 @@ for lang in langes:
             #print(header)
 
             href = (section.find("a", "question-hyperlink")).get("href")
-            #print(href)
-
+            #print(h
             relativeTime = (section.find("span", "relativetime")).get("title")
             #print(relativeTime)
 
