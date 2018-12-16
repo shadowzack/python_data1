@@ -52,9 +52,11 @@ for lang in langes:
             header = (section.find("a", "question-hyperlink")).text
        
             href = (section.find("a", "question-hyperlink")).get("href")
-           
-            relativeTime = (section.find("span", "relativetime")).get("title")
-           
+            try: 
+                relativeTime = (section.find("span", "relativetime")).get("title")
+            except:
+                relativeTime = "no time"
+
             qustion = (section.find("div", "excerpt")).text
        
             qId = href.rsplit('/', 2)[1]
