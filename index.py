@@ -9,6 +9,7 @@ import html
 import tech
 import json
 import sys
+import re
 
 ### getting all languges
 with open('languages.json') as f:
@@ -19,9 +20,10 @@ maxPage = 10    ### max number of pages for each languge
 locker = 0      ### locker for checking if avaible pages number is smaller than maxPage
 Page = []       ### Tech Object Array with all the results
 techArray = []  ### Tech Object Array with all the results
+openendFileName = "2018"
 
-### open Data 1 file all STDOUT data are printed to the file
-sys.stdout = open("Data1.json", "a")
+### open Data 1 file all STDOUT data are printed to the file start from 2018
+sys.stdout = open("./data/2018.json", "a")
 
 
 for lang in langes:
@@ -35,6 +37,8 @@ for lang in langes:
 
         soup = BeautifulSoup(htmlPage.read(), "html.parser")
 
+
+
         ### getting Max page number
         ### one time each string
         if locker == 0:
@@ -46,7 +50,7 @@ for lang in langes:
 
         ### questions crawler starts here 
         Page.extend(soup.find_all("div", "summary"))
-       
+        source = lang
         for section in Page:
 
             header = (section.find("a", "question-hyperlink")).text
@@ -54,8 +58,13 @@ for lang in langes:
             href = (section.find("a", "question-hyperlink")).get("href")
             try: 
                 relativeTime = (section.find("span", "relativetime")).get("title")
+                year = re.search(r"(\d{4})",relativeTime).group(1)
+
+
+
             except:
                 relativeTime = "no time"
+                year = "none"
 
             qustion = (section.find("div", "excerpt")).text
        
@@ -67,14 +76,21 @@ for lang in langes:
             for tagesArraytempIndex in tagesArraytemp:
                 tags.append(tagesArraytempIndex.text)
             
-            techObject=tech.Tech(header, qustion, tags, qId, relativeTime, href)
-            techArray.append(techObject)
-
-            json_string = json.dumps(techObject.__dict__)
-            print(json_string)
+            if(year != "none"):
+                if(int(year)<2013):
+                    break
+                else:
+                    if(year!=openendFileName):
+                        sys.stdout.close()
+                        ### open Data 1 file all STDOUT data are printed to the file
+                        sys.stdout = open("./data/"+year+".json", "a")
+                    techObject=tech.Tech(source,header, qustion, tags, qId, year, href)
+                    techArray.append(techObject)
+                    json_string = json.dumps(techObject.__dict__)
+                    print(json_string)
           
 
-sys.stdout.close()
+# sys.stdout.close()
 
 #sys.stdout = open("Data1.json", "a")
 #json_string = json.dumps([ob.__dict__ for ob in techArray])

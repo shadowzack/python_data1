@@ -2,16 +2,17 @@ import json
 
 class Tech:
 
-    def __init__(self, header, qustion, tags, qId, relativeTime, href):
+    def __init__(self, source, header, qustion, tags, qId, year, href):
+        self.source = source
         self.qustion = qustion
         self.tags = tags
         self.qId = qId
-        self.relativeTime = relativeTime
+        self.year = year
         self.href = href
         self.header = header
 
     def __str__(self):
-        return "########### Tech Object: header= %s, qustion= %s, tags= %s, qId= %s,relativeTime= %s,href= %s \n\n" % (self.header, self.qustion, self.tags, self.qId, self.relativeTime, self.href)
+        return "########### Tech Object:sorce=%s, header= %s, qustion= %s, tags= %s, qId= %s, year= %s,href= %s \n\n" % (self.source, self.header, self.qustion, self.tags, self.qId, self.year, self.href)
     def toJSON(self):
         return json.dumps(self.__dict__)
 
